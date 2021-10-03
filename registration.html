@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pragyanz Registration</title>
+
+	<link rel="shortcut icon" href="img/accetlogo.png">
+
+	<link rel="stylesheet" type="text/css" href="registerstyle.css">
+   <script type="text/javascript">
+         function text(x){
+            if(x===0)document.getElementById('Mycode').style.display="block";
+            else document.getElementById('Mycode').style.display="none";
+            return ;
+         }      
+   </script>
+</head>
+<body class="ans1">
+   <div class="registerform">
+   	   <h1 align="center" class="h1class">ALAGAPPA CHETTIAR GOVERNMENT COLLEGE OF ENGINEERING AND TECHNOLOGY</h1><br><br>
+   	   <h2 align="center" class="pragyanzheader">PRAGYANZ REGISTRATION FORM 2K21</h2>
+   </div>
+   <div class="form">
+   	   <form>
+   	   	<div id="details">
+   	   		<h2 class="name"> STUDENT NAME : 
+   	   		<input  class="namebox" type="text" name="Student_name :"></h2>
+            <h2 class="emailid">EMAIL ID <span class="emailest"> :<span> 
+   	   		<input class="emailidbox" type="text" name="Email Id :"></h2>
+   	   		<h2 class="collegename"> COLLEGE NAME : 
+   	   		<input  class="collegenamebox" type="text" name="College_name"></h2>
+   	   		<h2 class="department" >  * * * *  DEPARTMENT * * * * <br> <br>
+                 
+               <input type="radio"  name="request_type" value="Ece">ECE
+               <input type="radio" name="request_type" value="civil">CIVIL
+               <input type="radio" name="request_type" value="EEE">EEE
+               <input type="radio" name="request_type" value="cse">CSE
+               <input type="radio" name="request_type" value="mech">MECH
+                 
+           </h2 >
+   	   		<h2 class="yearofstudy"> YEAR OF STUDY : 
+               <input type="radio" name="request_type" value="firstyear"> I
+               <input type="radio" name="request_type" value="secondyear">II
+               <input type="radio" name="request_type" value="Thirdyear">III
+               <input type="radio" name="request_type" value="Finalyear">IV
+           </h2>
+           <h2 class="onlineevents">
+              * * * ONLINE EVENTS * * * <br><br>
+           </h2>
+           <h2 class="eventsname">
+               <input type="checkbox"  name="request_type" value="">ECE<br><br>
+               <input type="checkbox" name="request_type" value="">CIVIL<br><br>
+               <input type="checkbox" name="request_type" value="">EEE<br><br>
+               <input type="checkbox" name="request_type" value="">CSE<br><br>
+               <input type="checkbox" name="request_type" value="">MECH<br><br>
+           </h2>
+           <h2 class="ppt">
+              whether you presenting ppt :
+                <input type="radio" name="request_type" value="Yes" onclick="text(0)" checked="checked">YES
+               <input type="radio" name="request_type" value="No" onclick="text(1)">NO
+           </h2>
+           <h2 class="ppttopic" id="Mycode">
+              PPT Title:
+              <input type="text" name="request_type" >
+           </h2>
+
+        
+        <button class="submitbutton btn12" width="140"><a class="removeunderline" href="./end.html">SUBMIT</a></button>
+   	   	</div>
+   	   </form>
+   </div>
+</body>
+</html>

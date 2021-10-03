@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.h1class{
+	margin-top: 30px;
+	padding-top: 20px;
+	color: white;
+}
+.pragyanzheader{
+	color:white ;
+}
+.ans1{
+	background: url('./img/back4.jpg');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-size: 100% 100%;
+}
+ 
+.form{
+	font-family: monospace;
+	margin-right: 90px;
+	color: white;
+	
+}
+
+.name{
+	margin-left: 40%;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.emailid{
+	margin-left: 40%;
+    margin-top: 25px;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+
+.department{
+	margin-left: 40%;
+    margin-top: 25px;
+    padding: 10px;
+    margin-left: 540px;
+
+
+}
+
+.yearofstudy{
+	margin-left: 40%;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.collegename{
+	margin-left: 40%;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.namebox {
+	padding-left: -30px;
+	padding-right: -30px;
+	left: 30px;
+	line-height: 23px;
+	font-size: 15px;
+}
+
+.emailidbox{
+	position: relative;
+	left: 0px;
+	line-height: 23px;
+	font-size: 15px;
+}
+
+.collegenamebox{
+	position: relative;
+	line-height: 23px;
+	padding-left: 26px;
+}
+
+.emailest{
+	position: relative;
+	left: 44px;
+}
+
+.onlineevents{
+	position: relative;
+	margin-left: 570px;
+}
+
+.eventsname{
+	position: relative;
+	margin-left: 550px;
+}
+
+.ppt{
+	position: relative;
+	margin-left: 500px;
+}
+
+.ppttopic{
+   position: relative;
+   margin-top: 20px;
+	margin-left: 550px;
+	margin-bottom: 40px;	
+}
+.removeunderline{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.submitbutton{
+	position: relative;
+	cursor: pointer;
+	margin-left: 500px;
+	left: 150px;
+	text-decoration: none;
+	 margin-left: 40%;
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: skyblue;
+    border: 2px solid black;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-bottom: 34px;
+
+
+}
